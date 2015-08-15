@@ -55,6 +55,10 @@ namespace Painter
                 {
                     _isMoving = true;
                 }
+                else
+                {
+                    _model.DisPoseFocusShape();
+                }
             }
         }
 
